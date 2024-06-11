@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+/*
+Aluno:cauã mata
+Matricula:2412130053
+*/
+
+int main() {
+    char str[100];
+    int i=0;
+
+    printf("Digite uma string: ");
+    scanf("%s", str);
+
+    printf("A string de trás para a frente é: ");
+    i = strlen(str) - 1;
+    for (i ; i >= 0; i--) {
+        printf("%c", str[i]);
+    }
+    printf("\n");
+
+    return 0;
+}
