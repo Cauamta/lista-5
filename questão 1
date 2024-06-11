@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+/*
+Aluno:cauã mata
+Matricula:2412130053
+*/
+
+int main() {
+    char str[100];
+
+    printf("Digite uma string: ");
+    scanf("%s", str);
+
+    printf("As quatro primeiras letras da string são: %.4s\n", str);
+
+    return 0;
+}
