@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+/*
+Aluno:cauã mata
+Matricula:2412130053
+*/
+
+int main() {
+    char str1[100], str2[100];
+
+    printf("Digite a primeira string: ");
+    scanf("%s", str1);
+
+    printf("Digite a segunda string: ");
+    scanf("%s", str2);
+
+    if (strstr(str1, str2) != NULL) {
+        printf("A segunda string está contida dentro da primeira.\n");
+    } else {
+        printf("A segunda string NÃO está contida dentro da primeira.\n");
+    }
+
+    return 0;
+}
